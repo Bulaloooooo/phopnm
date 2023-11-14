@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+	.vidHeader{
+		position: fixed;
+		width: 100%;
+		object-fit: cover;
+		z-index: -1;
+		margin: -20px -8px;
+		height: 200px
+	}
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*First Page*/
+
+.vidHeader{
+	position: fixed;
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+	z-index: -1;
+	margin: -20px -8px;
+}
